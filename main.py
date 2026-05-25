@@ -20,6 +20,25 @@ def chat_with_model(user_message: str) -> str:
     response = raw_llm.invoke([HumanMessage(content=user_message)])
     return response.content
 
+
+def read_pm2_log(
+    path: str = "/home/amartya-mandal/.pm2/logs/gps-server-out.log",
+    last_n_lines: int = 200
+) -> str:
+    """
+    Read live PM2 logs.
+    """
+
+    if not os.path.exists(path):
+        raise FileNotFoundError(
+            f"PM2 log file not found: {path}"
+        )
+
+    with open(path, "r", encoding="utf-8", errors="replace") as f:
+        lines = f.readlines()
+
+    return "".join(lines[-last_n_lines:])
+
 def read_sample_log(path: str = "sample.log", last_n_lines: int = 200) -> str:
     """Read sample log content.
 
@@ -118,7 +137,7 @@ if __name__ == "__main__":
             try:
                 print("Assistant: Displaying last 200 lines of sample log:")
                 sleep(2)  # Simulate thinking time
-                print(read_sample_log())
+                print(read_pm2_log())
             except Exception as e:
                 print(f"Assistant: {e}")
             continue
@@ -131,7 +150,7 @@ if __name__ == "__main__":
             try:
                 print("Assistant: Analyzing log, please wait...")
                 sleep(3)  # Simulate longer processing time
-                log_text = read_sample_log()
+                log_text = read_pm2_log()
                 prompt = build_log_analysis_prompt(log_text)
                 print("Assistant:", chat_with_model(prompt))
             except Exception as e:
