@@ -8,7 +8,11 @@ RUN pip install --no-cache-dir \
     flask \
     python-dotenv \
     langchain-groq \
-    langchain-core
+    langchain-core \
+    openpyxl \
+    datetime \
+    time
+
 
 # Copy app source
 COPY . /app
@@ -19,5 +23,5 @@ ENV PYTHONUNBUFFERED=1
 EXPOSE 5000
 
 # Use .env file if you mount/copy it; otherwise provide GROQ_API_KEY and CHAT_MODEL as env vars.
-CMD ["python3", "ui.py"]
+CMD ["python3", "live3.py"]
 
