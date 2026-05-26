@@ -1,82 +1,82 @@
 {
   "867440069564327": {
-    "timestamp": "2026/05/25 16:27:40",
-    "direction": "South-West",
-    "lat": 22.559174,
-    "lon": 88.30237,
-    "speed": 79,
-    "course": 3127
+    "timestamp": "2026/05/25 18:32:07",
+    "direction": "South-East",
+    "lat": 22.511092,
+    "lon": 88.454628,
+    "speed": 61,
+    "course": 4087
   },
   "867440069564326": {
-    "timestamp": "2026/05/25 16:45:14",
-    "direction": "West",
-    "lat": 22.54727,
-    "lon": 88.377694,
-    "speed": 8,
-    "course": 4961
+    "timestamp": "2026/05/25 18:32:09",
+    "direction": "South",
+    "lat": 22.61101,
+    "lon": 88.571422,
+    "speed": 67,
+    "course": 1598
   },
   "867440069564321": {
-    "timestamp": "2026/05/25 16:45:20",
-    "direction": "North-West",
-    "lat": 22.595574,
-    "lon": 88.300108,
-    "speed": 87,
-    "course": 5712
+    "timestamp": "2026/05/25 18:28:37",
+    "direction": "South-East",
+    "lat": 22.675387,
+    "lon": 88.36588,
+    "speed": 85,
+    "course": 5552
   },
   "867440069564323": {
-    "timestamp": "2026/05/25 16:34:04",
+    "timestamp": "2026/05/25 18:32:15",
     "direction": "South-East",
-    "lat": 22.523134,
-    "lon": 88.432093,
-    "speed": 62,
-    "course": 4818
+    "lat": 22.525991,
+    "lon": 88.439177,
+    "speed": 29,
+    "course": 5530
   },
   "867440069564322": {
-    "timestamp": "2026/05/25 16:29:32",
-    "direction": "South-West",
-    "lat": 22.685469,
-    "lon": 88.482182,
-    "speed": 94,
-    "course": 5990
+    "timestamp": "2026/05/25 18:28:03",
+    "direction": "North-East",
+    "lat": 22.637397,
+    "lon": 88.316615,
+    "speed": 110,
+    "course": 1499
   },
   "867440069564324": {
-    "timestamp": "2026/05/25 16:33:08",
-    "direction": "North",
-    "lat": 22.698511,
-    "lon": 88.557544,
-    "speed": 106,
-    "course": 4325
+    "timestamp": "2026/05/25 18:32:43",
+    "direction": "South",
+    "lat": 22.534524,
+    "lon": 88.369449,
+    "speed": 36,
+    "course": 1987
   },
   "867440069564328": {
-    "timestamp": "2026/05/25 16:33:50",
-    "direction": "South-West",
-    "lat": 22.517951,
-    "lon": 88.511731,
-    "speed": 8,
-    "course": 3806
+    "timestamp": "2026/05/25 18:32:01",
+    "direction": "East",
+    "lat": 22.500075,
+    "lon": 88.333026,
+    "speed": 70,
+    "course": 5848
   },
   "867440069564329": {
-    "timestamp": "2026/05/25 16:44:48",
+    "timestamp": "2026/05/25 18:31:05",
     "direction": "East",
-    "lat": 22.559447,
-    "lon": 88.343015,
-    "speed": 42,
-    "course": 2979
+    "lat": 22.636915,
+    "lon": 88.313975,
+    "speed": 96,
+    "course": 1885
   },
   "867440069564330": {
-    "timestamp": "2026/05/25 16:33:46",
+    "timestamp": "2026/05/25 18:32:05",
     "direction": "North-East",
-    "lat": 22.626999,
-    "lon": 88.301658,
-    "speed": 28,
-    "course": 1118
+    "lat": 22.518229,
+    "lon": 88.516744,
+    "speed": 29,
+    "course": 3289
   },
   "867440069564325": {
-    "timestamp": "2026/05/25 16:44:44",
-    "direction": "South",
-    "lat": 22.658281,
-    "lon": 88.357433,
-    "speed": 117,
-    "course": 2329
+    "timestamp": "2026/05/25 18:30:43",
+    "direction": "West",
+    "lat": 22.508329,
+    "lon": 88.582925,
+    "speed": 99,
+    "course": 4226
   }
 }

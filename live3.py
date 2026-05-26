@@ -14,10 +14,16 @@ chat_model = os.getenv("CHAT_MODEL")
 
 raw_llm = ChatGroq(api_key=api_key, model=chat_model, temperature=0)
 
+#PM2_LOG_PATH = "/home/amartya-mandal/.pm2/logs/gps-server-out.log"
+#IMEI_XLSX_PATH = "imei_list.xlsx"
+#STATE_FILE = "imei_state.json"
+
+BASE_DIR = "/home/amartya-mandal/Desktop/gps-tracking-dashboard"
 PM2_LOG_PATH = "/home/amartya-mandal/.pm2/logs/gps-server-out.log"
-IMEI_XLSX_PATH = "imei_list.xlsx"
-STATE_FILE = "imei_state.json"
-LOG_POSITION_FILE = "log_position.txt"
+IMEI_XLSX_PATH = f"{BASE_DIR}/imei_list.xlsx"
+STATE_FILE = f"{BASE_DIR}/imei_state.json"
+LOG_POSITION_FILE = f"{BASE_DIR}/log_position.txt"
+
 REFRESH_INTERVAL = 1
 ALERT_SPEED = 100
 
